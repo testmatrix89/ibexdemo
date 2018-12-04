@@ -1,0 +1,87 @@
+/***** Common Styles *****/
+.row::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.mrgtp {
+    margin-top: 20px;
+}
+.col1 {
+    width: 33%;
+    float: left;
+}
+.col2 {
+    width: 33%;
+    float: left;
+}
+.col3 {
+    width: 34%;
+    float: left;
+}
+.clr {
+    clear: both;
+}
+.separator {
+    padding: 30px 20px;
+}
+.mscolor {
+    color: rgb(54, 200, 236);
+}
+.formbg {
+    border: 2px solid rgb(172, 172, 172);
+    background: #f7f8f9;
+    padding: 30px 20px;
+}
+.title-head {
+    font-size: 16px;
+    line-height: 24px;
+    border-bottom: 2px solid rgb(201, 201, 201);
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 10px
+}
+.title-head span {
+    font-size: 14px;
+    line-height: 32px;
+    float: right;
+}
+.title-op-head {
+    color: rgb(54, 200, 236);
+    font-size: 14px;
+    line-height: 18px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgb(201, 201, 201);
+}
+.form-control-box::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.help-icon {
+    width: 20px;
+    float: left;
+    margin-right: 10px;
+}
+.form-content-box {
+    float: left;
+}
+.form-content-box label {
+    line-height: 24px;
+}
+.form-content-box::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+/***** Common Styles*****/
+/***** PO styles*****/
+.po-select-area {
+    margin: 30px 0;
+}
+
+
+/***** PO styles*****/
